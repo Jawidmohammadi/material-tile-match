@@ -45,7 +45,6 @@ class _TileMatchScreenState extends State<TileMatchScreen> {
   _TileMatchScreenState() {
     _viewmodel.newPuzzle(tileImages.length);
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
